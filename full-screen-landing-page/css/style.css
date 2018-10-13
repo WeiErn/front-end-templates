@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    color: #d4d9dd;
+}
+
+#banner {
+    background: url('../img/landing-page-image.jpg') center;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+#banner .button {
+    font-size: 18px;
+    text-decoration: none;
+    color: #d4d9dd;
+    border: #d4d9dd 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+#banner .button:hover {
+    background: #d4d9dd;
+    color: #fff;
+}
+
+#section-a, #section-c{
+    padding:20px;
+    background: #212322;
+    color:#d4d9dd;
+    text-align:center;
+}
+
+#section-b{
+    padding:20px;
+    background: #fff;
+    color: #212322;
+    text-align:center;
+}
+
+#section-c{
+    display: flex;
+}
